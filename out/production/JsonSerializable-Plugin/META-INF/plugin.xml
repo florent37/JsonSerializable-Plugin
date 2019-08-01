@@ -1,0 +1,60 @@
+<idea-plugin>
+    <id>com.github.florent37.plugin.jsonserializable</id>
+    <name>JsonSerializable-Plugin</name>
+    <version>1.0</version>
+    <vendor email="champigny.florent@gmail.com" url="https://github.com/florent37/JsonSerializable-Plugin/tree/master">
+        Florent Champigny
+    </vendor>
+
+    <description><![CDATA[
+      Generates the code that JsonSerializable need to generate the .g.dart files<br/>
+      <br/><br/>
+      1. Open a .dart file<br/>
+      2. Alt + N (on mac) / Shift + Insert (Windows)<br/>
+      3. Select "Generate JsonSerializable"<br/>
+
+      it will insert
+      <ul>
+        <li>the <i>json_annotation</i> import</li>
+        <li>the @JsonSerializable annotation</li>
+        <li>the fromJson method</li>
+        <li>the toJson method</li>
+      </ul>
+
+      <br/><br/>
+
+      <a href="https://github.com/florent37/JsonSerializable-Plugin/blob/master/medias/sample.gif">
+        <img src="https://github.com/florent37/JsonSerializable-Plugin/blob/master/medias/sample.gif">
+      </a>
+      <br/>
+    ]]></description>
+
+    <change-notes><![CDATA[
+        - v1.0  Initial Import, works with a single dart class<br>
+    ]]>
+    </change-notes>
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+    <idea-version since-build="173.0" />
+
+    <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.lang</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action  text="Generate JsonSerializable" id="AutoJson.GenerateAction" class="com.github.florent37.Generator"
+            description="Generates the code that JsonSerializable need to generate the .g.dart files">
+            <add-to-group group-id="GenerateGroup" anchor="first" />
+            <add-to-group group-id="EditMenu" anchor="first" />
+            <add-to-group group-id="EditorPopupMenu" anchor="first" />
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl alt J" />
+        </action>
+    </actions>
+
+</idea-plugin>
