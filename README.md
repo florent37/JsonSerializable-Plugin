@@ -1,7 +1,7 @@
 # JsonSerializable-Plugin
 
 Intellij Plugin for `Dart` and `Flutter` projects.
-Generates the code that JsonSerializable need to generate the .g.dart files
+Generates the code that JsonSerializable need to generate the `.g.dart` files
       
 1. Open a .dart file
 2. Alt + N (on mac) / Shift + Insert (Windows)
