@@ -9,7 +9,7 @@
     <description><![CDATA[
       Generates the code that JsonSerializable need to generate the .g.dart files<br/>
       <br/><br/>
-      1. Open a .dart file<br/>
+      1. Open a <b>.dart</b> file<br/>
       2. Alt + N (on mac) / Shift + Insert (Windows)<br/>
       3. Select "Generate JsonSerializable"<br/>
 
@@ -23,10 +23,32 @@
 
       <br/><br/>
 
-      <a href="https://github.com/florent37/JsonSerializable-Plugin/blob/master/medias/sample.gif">
-        <img src="https://github.com/florent37/JsonSerializable-Plugin/blob/master/medias/sample.gif">
+      <a href="https://github.com/florent37/JsonSerializable-Plugin/blob/master/medias/sample.gif?raw=true">
+        <img src="https://github.com/florent37/JsonSerializable-Plugin/blob/master/medias/sample.gif?raw=true">
       </a>
       <br/>
+      <br/>
+
+      Generate the <b>.g.dart</b> files using build_runner :
+      <a href="https://dart.dev/tools/build_runner">https://dart.dev/tools/build_runner</a>
+
+      <br/>
+      <br/>
+      Don't forget to setup JsonSerializable into your project :
+      <a href="https://pub.dev/packages/json_serializable">https://pub.dev/packages/json_serializable</a>
+      <br/>
+      <br/>
+
+      Add into your pubspec.yaml<br/><br/>
+
+      <i>
+      dependencies:<br/>
+        &nbsp;&nbsp;json_annotation: ^3.1.0<br/>
+      <br/>
+      dev_dependencies:<br/>
+        &nbsp;&nbsp;build_runner: ^1.0.0<br/>
+        &nbsp;&nbsp;json_serializable: ^3.1.0<br/>
+      </i>
     ]]></description>
 
     <change-notes><![CDATA[
