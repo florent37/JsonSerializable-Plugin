@@ -33,7 +33,7 @@ Search `JsonSerializable-Plugin` in the intellij plugin marketplace then click o
 
 https://pub.dev/packages/json_serializable
 
-Add json_serializable dependencies into your pubspec.yaml file:
+Add json_serializable dependencies into your `pubspec.yaml` file:
 ```
 dependencies:
   json_annotation: ^3.1.0
