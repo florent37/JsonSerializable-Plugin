@@ -70,7 +70,7 @@
     </extensions>
 
     <actions>
-        <action  text="Generate JsonSerializable" id="AutoJson.GenerateAction" class="com.github.florent37.Generator"
+        <action  text="Generate JsonSerializable" id="florent37.JsonSerializable.Generator" class="com.github.florent37.Generator"
             description="Generates the code that JsonSerializable need to generate the .g.dart files">
             <add-to-group group-id="GenerateGroup" anchor="first" />
             <add-to-group group-id="EditMenu" anchor="first" />
