@@ -11,9 +11,9 @@ Generates the code that JsonSerializable need to generate the `.g.dart` files
 it will insert
 <ul>
 <li>the <i>json_annotation</i> import</li>
-<li>the @JsonSerializable annotation</li>
-<li>the fromJson method</li>
-<li>the toJson method</li>
+<li>the <i>@JsonSerializable</i> annotation</li>
+<li>the <i>fromJson</i> method</li>
+<li>the <i>toJson</i> method</li>
 </ul>
 
 <a href="https://github.com/florent37/JsonSerializable-Plugin/blob/master/medias/sample.gif">
