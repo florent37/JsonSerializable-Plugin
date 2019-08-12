@@ -28,7 +28,7 @@ Download `JsonSerializable-Plugin.zip` then open the intellij plugin panel `Pref
 
 ## Using MarketPlace
 
-Search `JsonSerializable-Plugin` in the intellij plugin marketplace then click on install.
+Search `JsonSerializable` in the intellij plugin marketplace then click on install.
 
 # JsonSerializable
 

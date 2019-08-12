@@ -1,6 +1,6 @@
 <idea-plugin>
     <id>com.github.florent37.plugin.jsonserializable</id>
-    <name>JsonSerializable-Plugin</name>
+    <name>JsonSerializable</name>
     <version>1.0</version>
     <vendor email="champigny.florent@gmail.com" url="https://github.com/florent37/JsonSerializable-Plugin/tree/master">
         Florent Champigny
