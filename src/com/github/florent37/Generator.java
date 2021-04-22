@@ -30,7 +30,7 @@ public class Generator extends AnAction {
         //only display on .dart files
         final Project project = e.getProject();
         if (project != null) {
-            final Editor editor = e.getRequiredData(CommonDataKeys.EDITOR);
+            final Editor editor = e.getData(CommonDataKeys.EDITOR);
             final PsiFile file = PsiUtilBase.getPsiFileInEditor(editor, project);
             if (file != null) {
                 String fileName = file.getName();
